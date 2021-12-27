@@ -10,3 +10,70 @@ body {
 }
 
 /* Add styles here! */
+
+.max-width-wrapper {
+  width: 100%;
+  padding: 50px;
+  background: white;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: solid 5px hsl(0deg, 0%, 40%);
+
+}
+
+main .max-width-wrapper{
+  background: hsl(0deg, 0%, 60%);
+  border-bottom: none;
+}
+
+.title {
+  padding: 20px 0;
+}
+
+.intro-chunk{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.card {
+  background: white;
+  padding: 2px 12px;
+  border-bottom: solid 5px hsl(0deg, 0%, 40%);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indented-heading{
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: -16px;
+  width: 50%;
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: solid 5px hsl(45deg, 100%, 40%);
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+
+  .intro-chunk {
+    width: 50%;
+    margin-left: -5px;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  .indented-heading{
+    width: 60%;
+  }
+  
+}
